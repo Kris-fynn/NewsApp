@@ -1,15 +1,14 @@
 {
   "expo": {
-    "name": "NewsApp",
-    "slug": "NewsApp",
+    "name": "NewsXTimes",
+    "slug": "newsxtimes",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/nsx-logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-main.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#DA3349"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,11 +20,11 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "tarundeveloper.newsxtimes",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      },
-      "package": "NewsApp.com"
+        "foregroundImage": "./assets/nsx-logo.png",
+        "backgroundColor": "#DA3349"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
